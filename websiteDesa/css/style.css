@@ -1,0 +1,110 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-color: #ffb700;
+}
+
+.container {
+	margin: auto;
+	background-color:#ffb700;
+	height:700;
+}
+
+.header {
+	margin: auto;
+	color: black;
+	background: #ffb700;
+	height: 60px;
+	padding: 10px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo h1 {
+	margin: 12px;
+	color: black;
+}
+
+.navbar {
+	float: right;
+	margin-top: auto;
+	background: #ffb700;
+}
+
+.navbar ul {
+	list-style: none;
+}
+ .navbar ul li {
+ 	display: inline;
+ 	margin: 10px;
+ }
+
+ .navbar ul li a {
+ 	text-decoration: none;
+ 	color: black;
+ 	margin: 0.5px;
+ 	text-decoration: underline;
+ }
+
+ .navbar ul li a:hover {
+ 	background-color: red;
+ 	border-bottom: 2px solid white;
+ }
+
+ .gambar {
+ 	width: 90%;
+ 	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr 1fr;
+ 	margin: auto;
+ }
+
+ .gambar .foto img {
+ 	width: 450px;
+ }
+
+ .foto{
+ 	border: 2px solid black;
+ 	margin: 5px;
+ 	text-align: center;
+ 	background-color: #ffb700;
+ 	margin-top: 30px;
+ 	color: black;
+ }
+
+ .foto img {
+ 	width:20px;
+ 	height: 300px;
+ }
+
+ .foto a:hover	{
+ 	background-color: red;
+ }
+
+ .foto a {
+ 	padding: 10px;
+ 	color: white;
+ 	background: black;
+ 	text-decoration: none;
+ 	border-radius: 10px;
+ 	cursor: pointer;
+ 	margin: 10px;
+
+ }
+
+ .foto  h3{
+ 	color:black;
+ 	background-color: #ffb700;
+ 	margin: 10px;
+ 	padding: 10px;
+ }
+
+footer{
+        font-family: 'Libre Franklin', sans-serif;
+        background-color: #ffb700;
+        color: black;
+        height: auto;
+	padding: auto;
+    }
